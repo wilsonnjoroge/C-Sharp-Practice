@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project1
+namespace ProgrameApp
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Wilson");
+            Console.Write("Hello");
+            Console.Write(" World");
+            Console.WriteLine(" Great improvement");
 
             Console.ReadLine();
         }
