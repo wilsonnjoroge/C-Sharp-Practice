@@ -14,7 +14,26 @@ namespace ProgrameApp
             Console.Write(" World");
             Console.WriteLine(" Great improvement");
 
+            string name = "Wilson";
+            Console.WriteLine("My name is " + name);
+
+            string firstName = "Wilson";
+            string lastName = "Wanderi";
+            string fullName = firstName + " " + lastName;
+            Console.WriteLine(fullName);
+
+            int salary = 200;
+            int allowances = 50;    
+            int totalSalary = salary + allowances;
+            Console.WriteLine(totalSalary);
+
+
             Console.ReadLine();
         }
     }
 }
+
+
+
+ 
+
