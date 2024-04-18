@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgrameApp
+namespace Variables
 {
     internal class Program
     {
@@ -23,7 +23,7 @@ namespace ProgrameApp
             Console.WriteLine(fullName);
 
             int salary = 200;
-            int allowances = 50;    
+            int allowances = 50;
             int totalSalary = salary + allowances;
             Console.WriteLine(totalSalary);
 
@@ -32,8 +32,3 @@ namespace ProgrameApp
         }
     }
 }
-
-
-
- 
-
