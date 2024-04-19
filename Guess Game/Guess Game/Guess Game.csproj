@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{747EFCB4-8690-4A2B-ADA1-A251EDB0AE30}</ProjectGuid>
+    <ProjectGuid>{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Guess_Game</RootNamespace>
     <AssemblyName>Guess Game</AssemblyName>
