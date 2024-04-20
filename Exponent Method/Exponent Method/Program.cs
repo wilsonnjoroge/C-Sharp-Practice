@@ -8,14 +8,8 @@ namespace Exponent_Method
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(getPower(3, 5));
 
-            Console.ReadLine();
-        }
-
-        static int getPower (int baseNum, int powerNum)
+        static int getPower(int baseNum, int powerNum)
         {
             int result = 1;
 
@@ -27,5 +21,14 @@ namespace Exponent_Method
 
             return result;
         }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(getPower(3, 5));
+
+            Console.ReadLine();
+        }
+
+
     }
 }
