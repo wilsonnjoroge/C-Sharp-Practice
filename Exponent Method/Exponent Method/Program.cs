@@ -24,7 +24,7 @@ namespace Exponent_Method
 
         static void Main(string[] args)
         {
-            Console.WriteLine(getPower(3, 5));
+            Console.WriteLine(getPower(3, 2));
 
             Console.ReadLine();
         }
