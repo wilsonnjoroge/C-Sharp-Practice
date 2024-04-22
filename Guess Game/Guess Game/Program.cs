@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System;
 
 namespace Guess_Game
 {
@@ -10,37 +7,53 @@ namespace Guess_Game
     {
         static void Main(string[] args)
         {
-            string secretWord = "Daktari";
-            string guess = "";
-            int guessCount = 0;
-            int guessLimit = 3;
-            bool outOfGuesses = false;
+            bool playAgain = true;
 
-
-            while ( guess != secretWord && !outOfGuesses )
+            while (playAgain)
             {
-                if ( guessCount < guessLimit)
+                string secretWord = "Daktari";
+                string guess = "";
+                int guessCount = 0;
+                int guessLimit = 3;
+                bool outOfGuesses = false;
+
+                while (guess != secretWord && !outOfGuesses)
                 {
-                    Console.Write("Enter guess: ");
-                    guess = Console.ReadLine();
-                    guessCount++;
-                } else
-                {
-                    outOfGuesses = true;
+                    if (guessCount < guessLimit)
+                    {
+                        Console.Write("Enter guess: ");
+                        guess = Console.ReadLine();
+                        guessCount++;
+                    }
+                    else
+                    {
+                        outOfGuesses = true;
+                    }
+
                 }
-                
-            }
-            if ( outOfGuesses )
-            {
-                Console.Write("You lose!");
+                if (outOfGuesses)
+                {
+                    Console.WriteLine("You lose!");
+                }
+                else
+                {
+                    Console.WriteLine("You win!");
+                }
 
-            } else
-            {
-                Console.Write("You win!");
+                Console.Write("Play again? (yes/no): ");
+                string playChoice = Console.ReadLine().ToLower();
+
+                Console.Clear();
+                if (playChoice != "yes")
+                {
+                    playAgain = false;
+                }
             }
 
+            Console.WriteLine("Thanks for playing!");
 
             Console.ReadLine();
         }
     }
 }
+
