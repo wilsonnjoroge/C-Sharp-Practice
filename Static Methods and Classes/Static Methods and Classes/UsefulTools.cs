@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Static_Methods_and_Classes
 {
-    internal class UsefulTools
+    class UsefulTools
     {
         public static void sayHi(string name)
         {
