@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}</ProjectGuid>
+    <ProjectGuid>{28709DA0-A67A-459E-AD33-6921E93EBA62}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Guess_Game</RootNamespace>
-    <AssemblyName>Guess Game</AssemblyName>
+    <RootNamespace>Static_Class_Atributes</RootNamespace>
+    <AssemblyName>Static Class Atributes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Song.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

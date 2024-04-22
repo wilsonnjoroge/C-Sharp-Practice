@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guess Game", "Guess Game\Guess Game.csproj", "{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception Handling", "Exception Handling\Exception Handling.csproj", "{6830782A-79EE-4509-B6B0-83C8A60E9B69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6830782A-79EE-4509-B6B0-83C8A60E9B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6830782A-79EE-4509-B6B0-83C8A60E9B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6830782A-79EE-4509-B6B0-83C8A60E9B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6830782A-79EE-4509-B6B0-83C8A60E9B69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AE6DE095-4E6B-483F-8B60-F3F47AB998CD}
+		SolutionGuid = {23570D2D-F3DF-4A5E-A247-698217664C8A}
 	EndGlobalSection
 EndGlobal

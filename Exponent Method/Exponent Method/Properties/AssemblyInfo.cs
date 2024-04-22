@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Guess Game")]
+[assembly: AssemblyTitle("Exponent Method")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Guess Game")]
+[assembly: AssemblyProduct("Exponent Method")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("41c603c7-7489-4b6d-a4b7-acd36cac8182")]
+[assembly: Guid("6b2e37a2-75ab-4bc1-8d84-eaf7a73745c4")]
 
 // Version information for an assembly consists of the following four values:
 //

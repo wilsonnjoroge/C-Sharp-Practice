@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}</ProjectGuid>
+    <ProjectGuid>{6B2E37A2-75AB-4BC1-8D84-EAF7A73745C4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Guess_Game</RootNamespace>
-    <AssemblyName>Guess Game</AssemblyName>
+    <RootNamespace>Exponent_Method</RootNamespace>
+    <AssemblyName>Exponent Method</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

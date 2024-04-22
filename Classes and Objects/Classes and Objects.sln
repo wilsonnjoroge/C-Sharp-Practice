@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guess Game", "Guess Game\Guess Game.csproj", "{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes and Objects", "Classes and Objects\Classes and Objects.csproj", "{A2B467CD-0285-4786-88C1-A20732B76D2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41C603C7-7489-4B6D-A4B7-ACD36CAC8182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B467CD-0285-4786-88C1-A20732B76D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B467CD-0285-4786-88C1-A20732B76D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B467CD-0285-4786-88C1-A20732B76D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B467CD-0285-4786-88C1-A20732B76D2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AE6DE095-4E6B-483F-8B60-F3F47AB998CD}
+		SolutionGuid = {E9566BBA-E30C-41DA-8DE4-E1AEC4CD1AE8}
 	EndGlobalSection
 EndGlobal
