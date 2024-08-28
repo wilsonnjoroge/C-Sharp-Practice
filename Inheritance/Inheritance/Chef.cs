@@ -23,5 +23,6 @@ namespace Inheritance
         {
             Console.WriteLine("The chef makes bbq ribs");
         }
+
     }
 }
