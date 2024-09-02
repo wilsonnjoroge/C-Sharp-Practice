@@ -188,6 +188,149 @@ namespace Inheritance
             myPuppy.MakeSound5(); // Will call the method in dog5 and print back
             }
         }
-    
+
+
+    //****************************************************************************************************
+    //****************************************************************************************************
+
+    // 1. Single Inheritance - a class (derived class) inherits from one and only one base class
+    public class AnimalA
+    {
+        public void EatA()
+        {
+            Console.WriteLine("Animal eats");
+        }
+    }
+
+    public class DogA : AnimalA
+    {
+        public void BarkA()
+        {
+            Console.WriteLine("Dog barks");
+        }
+    }
+
+    class ProgramA
+    {
+        static void Main()
+        {
+            DogA myDogA = new DogA();
+            myDogA.EatA();  // Inherited from Animal
+            myDogA.BarkA(); // Specific to Dog
+        }
+    }
+
+
+    // 2. Multilevel Inheritance - a class is derived from another derived class, forming a chain of inheritance.
+    public class AnimalB
+    {
+        public void EatB()
+        {
+            Console.WriteLine("Animal eats");
+        }
+    }
+
+    public class MammalB : AnimalB
+    {
+        public void BreatheB()
+        {
+            Console.WriteLine("Mammal breathes");
+        }
+    }
+
+    public class DogB : MammalB
+    {
+        public void BarkB()
+        {
+            Console.WriteLine("Dog barks");
+        }
+    }
+
+    class ProgramB
+    {
+        static void Main()
+        {
+            DogB myDogB = new DogB();
+            myDogB.EatB();    // Inherited from Animal
+            myDogB.BreatheB(); // Inherited from Mammal
+            myDogB.BarkB();   // Specific to Dog
+        }
+    }
+
+
+    // 3. Hierarchical Inheritance - multiple classes are derived from a single base class
+    public class AnimalC
+    {
+        public void EatC()
+        {
+            Console.WriteLine("Animal eats");
+        }
+    }
+
+    public class DogC : AnimalC
+    {
+        public void BarkC()
+        {
+            Console.WriteLine("Dog barks");
+        }
+    }
+
+    public class CatC : AnimalC
+    {
+        public void MeowC()
+        {
+            Console.WriteLine("Cat meows");
+        }
+    }
+
+    class ProgramC
+    {
+        static void Main()
+        {
+            DogC myDogC = new DogC();
+            myDogC.EatC();  // Inherited from Animal
+            myDogC.BarkC(); // Specific to Dog
+
+            CatC myCatC = new CatC();
+            myCatC.EatC();  // Inherited from Animal
+            myCatC.MeowC(); // Specific to Cat
+        }
+    }
+
+
+    // 4. Multiple Inheritance - a class can inherit from more than one base class
+    public interface IAnimal
+    {
+        void EatD();
+    }
+
+    public interface IPet
+    {
+        void PlayD();
+    }
+
+    public class DogD : IAnimal, IPet
+    {
+        public void EatD()
+        {
+            Console.WriteLine("Dog eats");
+        }
+
+        public void PlayD()
+        {
+            Console.WriteLine("Dog plays");
+        }
+    }
+
+    class ProgramD
+    {
+        static void Main()
+        {
+            DogD myDogD = new DogD();
+            myDogD.EatD();  // Implemented from IAnimal
+            myDogD.PlayD(); // Implemented from IPet
+        }
+    }
+
 
 }
