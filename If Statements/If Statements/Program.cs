@@ -49,6 +49,7 @@ namespace If_Statements
                 Console.WriteLine("You are neither a female nor tall");
             }
 
+            //Displays the if statements
             Console.ReadLine();
         }
     }
