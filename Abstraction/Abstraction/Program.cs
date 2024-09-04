@@ -11,7 +11,7 @@ public abstract class Shape
     }
 }
 
-// Derived class implementing the abstract method
+// Derived class implementing the abstract method 
 public class Circle : Shape
 {
     private double radius;
