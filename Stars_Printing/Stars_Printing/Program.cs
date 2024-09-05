@@ -5,6 +5,7 @@ namespace Stars_Printing
 
     class Program
     {
+        
         static void Main(string[] args)
         {
             /* To print Stars in descending order 
@@ -16,7 +17,7 @@ namespace Stars_Printing
                 *
                     */
 
-            for(int i = 6; i >= 1; i--) // Track the number of stars printed at each line ie reducing by 1
+            for (int i = 6; i >= 1; i--) // Track the number of stars printed at each line ie reducing by 1
             {
                 for (int j = 1; j <= i; j++) // Prints the stars at each line 
                 {
@@ -37,7 +38,10 @@ namespace Stars_Printing
                 ******
                             */
 
-            for (int i = 1; i <= 6 ; i++) // Track the number of stars printed at each line ie increasing by 1
+            Console.Write("Enter the number of rows For this pattern: ");
+            int numRows = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= numRows; i++) // Track the number of stars printed at each line ie increasing by 1
             {
                 for (int j = 1; j <= i; j++) // Prints the stars at each line 
                 {
@@ -70,7 +74,7 @@ namespace Stars_Printing
                     Console.Write("*");
                 }
 
-                // Moves to the next line after printing
+               // Moves to the next line after printing
                 Console.WriteLine();
             }
 
@@ -85,14 +89,14 @@ namespace Stars_Printing
                             */
 
             int rows = 6;
-            for(int i = 1; i <= rows ; i++) // Track the number of rows
+            for (int i = 1; i <= rows; i++) // Track the number of rows
             {
-                for (int j = 1; j <= rows - i ; j++) // Print the leading spaces that decreases as the number increases
+                for (int j = 1; j <= rows - i; j++) // Print the leading spaces that decreases as the number increases
                 {
                     Console.Write(" ");
                 }
 
-                for(int k = 1; k <= (2 * i) -1; k++) // Print stars in an odd number manner ie 1,3,5,7,9,11
+                for (int k = 1; k <= (2 * i) - 1; k++) // Print stars in an odd number manner ie 1,3,5,7,9,11
                 {
                     Console.Write("*");
                 }
@@ -102,6 +106,8 @@ namespace Stars_Printing
             }
 
             Console.ReadLine();
+
         }
+
     }
 }
