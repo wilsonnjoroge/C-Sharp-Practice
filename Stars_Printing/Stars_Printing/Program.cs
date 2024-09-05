@@ -14,7 +14,7 @@ namespace Stars_Printing
                 ***
                 **
                 *
-                            */
+                    */
 
             for(int i = 6; i >= 1; i--) // Track the number of stars printed at each line ie reducing by 1
             {
