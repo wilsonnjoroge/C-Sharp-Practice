@@ -27,6 +27,33 @@ namespace StarsApi.classes
             }
         }
 
+        public void WriteUprightRightAngleStars()
+        {
+            /* To print Stars in descending order 
+                *
+                **
+                ***
+                ****
+                *****
+                ******
+                            */
+
+            Console.Write("Enter the number of rows For this pattern: ");
+            int numRows = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= numRows; i++) // Track the number of stars printed at each line ie increasing by 1
+            {
+                for (int j = 1; j <= i; j++) // Prints the stars at each line 
+                {
+                    Console.Write("*");
+                }
+
+                // Moves to the next line after printing
+                Console.WriteLine();
+            }
+
+        }
+
 
 
     }
