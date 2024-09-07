@@ -10,5 +10,6 @@ namespace StarsApi.interaces
     {
         public void WriteUpsidedownRightAngleStars();
         public void WriteUprightRightAngleStars();
+        public void WriteInvertedRightAngleStars();
     }
 }
