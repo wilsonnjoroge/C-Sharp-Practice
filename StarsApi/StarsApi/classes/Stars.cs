@@ -12,6 +12,15 @@ namespace StarsApi.classes
 
         public void WriteUpsidedownRightAngleStars()
         {
+            /* To print Stars in descending order 
+               ******
+               *****
+               ****
+               ***
+               **
+               *
+                   */ 
+
             Console.WriteLine("Please input the number of stars for this rows: ");
             string numberOfRows = Console.ReadLine();
 
@@ -54,7 +63,25 @@ namespace StarsApi.classes
 
         }
 
+        public void WriteInvertedRightAngleStars()
+        {
+            Console.Write("Enter the number of rows For this pattern: ");
+            int numRows = int.Parse(Console.ReadLine());
 
+            for (int i = 1; i <= numRows; i++)
+            {
+                for (int j = numRows; j > i; j--)
+                {
+                    Console.Write(" ");
+                }
 
+                for (int k = 1; k <= i; k++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+            }
+        }
     }
 }
