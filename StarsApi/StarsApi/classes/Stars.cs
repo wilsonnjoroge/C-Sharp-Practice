@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using StarsApi.interaces;
 
 namespace StarsApi.classes
 {
-    public class Stars : WriteStars
+    public class Stars : IWriteStars
     {
 
         public void WriteUpsidedownRightAngleStars()
@@ -65,6 +61,16 @@ namespace StarsApi.classes
 
         public void WriteInvertedRightAngleStars()
         {
+            /* To print Stars in descending order
+                      *
+                     **
+                    ***
+                   ****
+                  *****
+                 ******
+                        
+                        */
+
             Console.Write("Enter the number of rows For this pattern: ");
             int numRows = int.Parse(Console.ReadLine());
 
@@ -82,6 +88,39 @@ namespace StarsApi.classes
 
                 Console.WriteLine();
             }
+        }
+
+        public void WriteEquilateralTriangleStars()
+        {
+            /* To print Stars in descending order 
+                     *
+                    ***
+                   *****
+                  *******
+                 *********
+                ***********
+                            */
+
+            Console.Write("Enter the number of rows For this pattern: ");
+            int numRows = int.Parse(Console.ReadLine());
+
+            int rows = numRows;
+            for (int i = 1; i <= rows; i++) // Track the number of rows
+            {
+                for (int j = 1; j <= rows - i; j++) // Print the leading spaces that decreases as the number increases
+                {
+                    Console.Write(" ");
+                }
+
+                for (int k = 1; k <= (2 * i) - 1; k++) // Print stars in an odd number manner ie 1,3,5,7,9,11
+                {
+                    Console.Write("*");
+                }
+
+                // Moves to the next line after printing
+                Console.WriteLine();
+            }
+
         }
     }
 }

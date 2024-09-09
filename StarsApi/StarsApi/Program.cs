@@ -14,8 +14,11 @@ namespace StarsApi
             Stars uprightRightAngleStars = new Stars();
             uprightRightAngleStars.WriteUprightRightAngleStars();
 
-            Stars invertedRightAngleStars = new Stars ();
+            Stars invertedRightAngleStars = new Stars();
             invertedRightAngleStars.WriteInvertedRightAngleStars();
+
+            Stars equilateralTringleStars = new Stars();
+            equilateralTringleStars.WriteEquilateralTriangleStars();
 
 
             Console.ReadLine();
