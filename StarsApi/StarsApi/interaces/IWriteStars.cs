@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace StarsApi.interaces
 {
-    public interface WriteStars
+    public interface IWriteStars
     {
         public void WriteUpsidedownRightAngleStars();
         public void WriteUprightRightAngleStars();
         public void WriteInvertedRightAngleStars();
+        public void WriteEquilateralTriangleStars();
     }
 }
