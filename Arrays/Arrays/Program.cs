@@ -29,7 +29,7 @@ namespace Arrays
             string[] cars = new string[5];
             cars[0] = "Volvo";
             cars[1] = "Audi";
-            cars[2] = "Mercedes Benz";
+            cars[2] = "Merscedes Benz";
             cars[3] = "Honda";
 
             string Cars = "[" + string.Join(", ", cars) + "]";
