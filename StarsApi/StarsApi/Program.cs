@@ -8,17 +8,15 @@ namespace StarsApi
     {
         static void Main (String[] args)
         {
-            Stars upsidedownRightAngleStars = new Stars();
-            upsidedownRightAngleStars.WriteUpsidedownRightAngleStars();
+            Stars stars = new Stars();
 
-            Stars uprightRightAngleStars = new Stars();
-            uprightRightAngleStars.WriteUprightRightAngleStars();
+            stars.WriteUpsidedownRightAngleStars();
 
-            Stars invertedRightAngleStars = new Stars();
-            invertedRightAngleStars.WriteInvertedRightAngleStars();
+            stars.WriteUprightRightAngleStars();
 
-            Stars equilateralTringleStars = new Stars();
-            equilateralTringleStars.WriteEquilateralTriangleStars();
+            stars.WriteInvertedRightAngleStars();
+
+            stars.WriteEquilateralTriangleStars();
 
 
             Console.ReadLine();
