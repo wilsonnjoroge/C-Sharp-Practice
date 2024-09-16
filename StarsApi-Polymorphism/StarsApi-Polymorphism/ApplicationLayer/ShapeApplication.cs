@@ -27,6 +27,11 @@ public class ShapeApplication
 
         string selection = Console.ReadLine();
         int choice = int.Parse(selection);
+        if(choice > 4 || choice <= 0)
+        {
+            Console.WriteLine("Error: Kindly select from the list above.");
+            return;
+        }
 
         Console.Write("Enter the number of rows for this pattern: ");
         string input = Console.ReadLine();
