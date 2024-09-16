@@ -12,7 +12,7 @@ namespace StarsApi_Polymorphism.DataLayer
 
         public bool IsRowNumberValid(int input)
         {
-            return Array.Exists(rowNumbers, row => row == input);
+            return rowNumbers.Contains(input);
 
         }
 
