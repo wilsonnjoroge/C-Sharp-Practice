@@ -10,6 +10,7 @@ namespace _2_D_Arrays
     {
         static void Main(string[] args)
         {
+            // Array
             int[,] numberGrid = 
             { 
                 { 1, 2 }, 
